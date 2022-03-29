@@ -1,2 +1,3 @@
 # cpp_basic
-C++ Basics
+// C++ Basics
+Repository for learn the basics of C++
