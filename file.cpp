@@ -2,7 +2,6 @@
 
 int read_write_file(const std::string& filename, const std::string& user_name, unsigned int attempts)
 {
-
 	std::ifstream in_file{ filename };
 	if (!in_file.is_open()) {
 		std::cout << "Failed to open file for read: " << filename << "!" << std::endl;
