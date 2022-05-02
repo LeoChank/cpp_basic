@@ -34,7 +34,6 @@ int read_write_file(const std::string& filename, const std::string& user_name, u
 
 			if (attempts < record)
 			{
-
 				Beep(500, 500);
 				out_file.seekp(pos, out_file.beg);
 				out_file.seekp(1, out_file.cur);
