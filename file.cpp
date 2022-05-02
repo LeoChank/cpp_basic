@@ -81,5 +81,5 @@ int read_write_file(const std::string& filename, const std::string& user_name, u
 	std::cout << user_name << '\t' << "Best result: " << record << std::endl;
 	std::cout << "Current result: " << attempts << std::endl;
 	in_file.close();
-	//break;
+	return 0;
 }
